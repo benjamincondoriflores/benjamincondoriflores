@@ -1,120 +1,223 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" role="img" aria-label="Benjamin Condori Flores — Aviation Technology, Software Development and Technical Projects">
-  <defs>
-    <linearGradient id="heroBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#03070C"/>
-      <stop offset="0.55" stop-color="#07121F"/>
-      <stop offset="1" stop-color="#0A1A2F"/>
-    </linearGradient>
-    <linearGradient id="heroAccent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#3FA9F5"/>
-      <stop offset="1" stop-color="#4FD1E0"/>
-    </linearGradient>
-    <linearGradient id="heroPath" x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0" stop-color="#3FA9F5" stop-opacity="0"/>
-      <stop offset="1" stop-color="#4FD1E0" stop-opacity="0.85"/>
-    </linearGradient>
-    <pattern id="heroGrid" width="60" height="60" patternUnits="userSpaceOnUse">
-      <path d="M60 0H0V60" fill="none" stroke="#12283D" stroke-width="1"/>
-    </pattern>
-  </defs>
+<!-- HERO -->
+<div align="center">
 
-  <rect width="1200" height="360" fill="url(#heroBg)"/>
-  <rect width="1200" height="360" fill="url(#heroGrid)" opacity="0.55"/>
-  <rect width="1200" height="2" fill="url(#heroAccent)" opacity="0.45"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:03070C,50:0A1A2F,100:12283D&height=220&section=header&text=BENJAMIN%20CONDORI%20FLORES&fontSize=42&fontColor=E6EDF3&animation=fadeIn&fontAlignY=32&desc=AVIATION%20%E2%80%A2%20TECHNOLOGY%20%E2%80%A2%20SOFTWARE&descAlignY=52&descSize=15&descColor=4FD1E0" width="100%" alt="Benjamin Condori Flores — Aviation, Technology, Software" />
 
-  <circle cx="200" cy="150" r="280" fill="#3FA9F5" opacity="0.04"/>
+<br>
 
-  <line x1="0" y1="256" x2="1200" y2="256" stroke="#12283D" stroke-width="1"/>
+**Aviation professional and software developer focused on building technical, educational, and operational solutions.**
 
-  <path d="M600 322C800 318 960 240 1128 116" fill="none" stroke="url(#heroPath)" stroke-width="1.5" stroke-dasharray="7 9" stroke-linecap="round"/>
+<sub>Aeronautical maintenance · Flight operations · Air traffic control · Python · Web & mobile development · Data analysis</sub>
 
-  <circle cx="812" cy="290" r="2.5" fill="#3FA9F5" opacity="0.5"/>
-  <circle cx="986" cy="212" r="2.5" fill="#4FD1E0" opacity="0.65"/>
+</div>
 
-  <g transform="translate(1128 116) rotate(-33)">
-    <path d="M22 0L2 3.5L-6 13L-12 13L-5 3.5L-22 3.5L-22-3.5L-5-3.5L-12-13L-6-13L2-3.5Z" fill="#4FD1E0" opacity="0.85"/>
-  </g>
+<br>
 
-  <rect x="80" y="176" width="88" height="2" fill="url(#heroAccent)"/>
+---
 
-  <text x="80" y="152" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="600" letter-spacing="2.5" fill="#E6EDF3">BENJAMIN CONDORI FLORES</text>
-  <text x="80" y="212" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" letter-spacing="3.5" fill="#8B9AAB">AVIATION TECHNOLOGY · SOFTWARE DEVELOPMENT · TECHNICAL PROJECTS</text>
-  <text x="80" y="316" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" letter-spacing="2" fill="#8B9AAB" opacity="0.75">HDG 043° · ALT 12 500 FT · GS 480 KT</text>
-</svg>
+<!-- PROFILE -->
 
-## Professional Summary
+## Professional Profile
 
-Profile built at the intersection of aviation technology and software development. Aeronautical knowledge is applied to the design of operational, educational and documentation tools — from Python utilities and data handling to web and mobile interfaces built with JavaScript and Flutter.
+I work at the intersection of aviation operations and software engineering. My background covers aeronautical maintenance, flight operations, and air traffic control, and I apply that domain knowledge to design and build technical tools, educational platforms, and data-oriented applications.
 
-The work focuses on translating technical and operational requirements into clear, maintainable software and readable documentation for aeronautical environments.
+My work is oriented toward solving real operational and training problems: automating technical documentation workflows, developing educational software for aviation training environments, and building web and mobile applications that connect engineering discipline with practical usability.
 
-## Areas of Expertise
+I maintain a continuous learning practice across Python, web technologies, mobile development, and data analysis. I am particularly interested in projects where aviation domain expertise directly informs the software architecture and user experience.
 
-| Area | Scope |
-| --- | --- |
-| Aviation Technology | Aeronautical knowledge applied to digital tools and operational workflows. |
-| Software Development | Web, mobile and desktop applications built with Python, JavaScript and Flutter. |
-| Technical & Educational Projects | Documentation, training material and tooling for aeronautical education. |
+<br>
 
-## Technologies
+---
 
-| Category | Stack |
-| --- | --- |
-| Programming | Python · JavaScript |
-| Web | HTML · CSS |
-| Mobile | Flutter |
-| Development | Git · GitHub · VS Code |
-| Data | MySQL · Data Analysis |
-| Design & Documentation | Figma · Markdown |
+<!-- TECHNOLOGIES -->
 
-## Aviation Domains
+## Technical Stack
 
-- **Flight Operations** — operational procedures and flight-related tooling.
-- **Aviation Operations** — day-to-day operational processes and supporting systems.
-- **Aeronautical Maintenance** — technical records and maintenance documentation.
-- **Air Traffic Control** — control procedures and aeronautical information.
-- **Aviation Technology** — applied systems, tooling and digital workflows.
-- **Technical Documentation** — structured manuals, procedures and reference material.
-- **Educational Tools** — training material and learning resources for aeronautical study.
+<div align="center">
 
-## Projects
+**Programming**
 
-Structured by domain. Repositories will be listed here as they are published.
+<img src="https://skillicons.dev/icons?i=py,js&theme=dark&perline=10" alt="Python, JavaScript" />
 
-| Category | Scope | Repository |
-| --- | --- | --- |
-| Aviation Software | Operational and flight-related tooling | — |
-| Educational Tools | Aeronautical training and study material | — |
-| Python Applications | Automation, data handling and utilities | — |
-| Web Projects | Front-end and full-stack interfaces | — |
-| Technical Engineering Projects | Documentation and engineering support tools | — |
+<br>
 
-## GitHub Activity
+**Web**
+
+<img src="https://skillicons.dev/icons?i=html,css,js&theme=dark&perline=10" alt="HTML, CSS, JavaScript" />
+
+<br>
+
+**Mobile**
+
+<img src="https://skillicons.dev/icons?i=flutter,dart&theme=dark&perline=10" alt="Flutter, Dart" />
+
+<br>
+
+**Development Tools**
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,linux&theme=dark&perline=10" alt="Git, GitHub, VS Code, Linux" />
+
+<br>
+
+**Data & Design**
+
+<img src="https://skillicons.dev/icons?i=mysql,figma&theme=dark&perline=10" alt="MySQL, Figma" />
+
+<br>
+
+**Documentation**
+
+<img src="https://skillicons.dev/icons?i=md&theme=dark&perline=10" alt="Markdown" />
+
+</div>
+
+<br>
+
+---
+
+<!-- AVIATION DOMAINS -->
+
+## Aviation & Technical Domains
 
 <table>
-  <tr>
-    <td valign="top" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=benjamincondoriflores&show_icons=true&hide_border=true&include_all_commits=true&bg_color=03070C&title_color=3FA9F5&icon_color=4FD1E0&text_color=C5CFD9&rank_icon=github" alt="GitHub statistics for benjamincondoriflores" width="100%" />
-    </td>
-    <td valign="top" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=benjamincondoriflores&layout=compact&hide_border=true&langs_count=8&bg_color=03070C&title_color=3FA9F5&text_color=C5CFD9" alt="Most used languages on GitHub for benjamincondoriflores" width="100%" />
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+**Aviation**
+
+- Aeronautical Maintenance
+- Flight Operations
+- Air Traffic Control
+- Aviation Technology
+- Technical Documentation
+
+</td>
+<td width="50%" valign="top">
+
+**Software & Engineering**
+
+- Python Development
+- Web Development
+- Mobile Applications
+- Data Analysis
+- Educational Software
+- Technical Automation
+
+</td>
+</tr>
 </table>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=benjamincondoriflores&hide_border=true&background=03070C&border=12283D&stroke=12283D&ring=3FA9F5&fire=4FD1E0&currStreakNum=E6EDF3&currStreakLabel=4FD1E0&sideNums=E6EDF3&sideLabels=C5CFD9&dates=8B9AAB" alt="Contribution streak for benjamincondoriflores" width="70%" />
-</p>
+<br>
+
+---
+
+<!-- GITHUB ANALYTICS -->
+
+## GitHub Analytics
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=benjamincondoriflores&show_icons=true&bg_color=03070C&title_color=4FD1E0&text_color=C5CFD9&icon_color=3FA9F5&border_color=12283D&hide_border=true&include_all_commits=true&count_private=true" height="165" alt="GitHub statistics" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=benjamincondoriflores&layout=compact&bg_color=03070C&title_color=4FD1E0&text_color=C5CFD9&border_color=12283D&hide_border=true&langs_count=6" height="165" alt="Most used languages" />
+
+<br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=benjamincondoriflores&bg_color=03070C&color=4FD1E0&line=3FA9F5&point=E6EDF3&area=true&hide_border=true&custom_title=Contribution%20Activity" width="100%" alt="Contribution activity graph" />
+
+</div>
+
+<br>
+
+---
+
+<!-- FEATURED PROJECTS -->
+
+## Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Project Name**
+
+Short technical description of the project and its purpose.
+
+`Python` `Data Analysis` · [Repository](#)
+
+</td>
+<td width="50%" valign="top">
+
+**Project Name**
+
+Short technical description of the project and its purpose.
+
+`Flutter` `Dart` · [Repository](#)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Project Name**
+
+Short technical description of the project and its purpose.
+
+`HTML` `CSS` `JavaScript` · [Repository](#)
+
+</td>
+<td width="50%" valign="top">
+
+**Project Name**
+
+Short technical description of the project and its purpose.
+
+`Python` `MySQL` · [Repository](#)
+
+</td>
+</tr>
+</table>
+
+<br>
+
+---
+
+<!-- CONNECT -->
 
 ## Connect
 
-| Platform | Profile |
-| --- | --- |
-| YouTube | [@benjamincondoriflores](https://www.youtube.com/@benjamincondoriflores) |
-| Instagram | [@benjamincondoriflores](https://www.instagram.com/benjamincondoriflores) |
-| TikTok | [@benjamincondoriflores](https://www.tiktok.com/@benjamincondoriflores) |
-| Facebook | [condorifloresbenjamin](https://www.facebook.com/condorifloresbenjamin) |
+<div align="center">
 
-<p align="center">
-  <sub>Benjamin Condori Flores · Aviation Technology · Software Development · Technical Projects</sub>
-</p>
+<a href="https://www.tiktok.com/@benjamincondoriflores" target="_blank" rel="noopener">
+  <img src="https://cdn.simpleicons.org/tiktok/E6EDF3" height="24" alt="TikTok" />
+</a>
+&nbsp;&nbsp;
+<a href="https://www.youtube.com/@benjamincondoriflores" target="_blank" rel="noopener">
+  <img src="https://cdn.simpleicons.org/youtube/E6EDF3" height="24" alt="YouTube" />
+</a>
+&nbsp;&nbsp;
+<a href="https://www.instagram.com/benjamincondoriflores" target="_blank" rel="noopener">
+  <img src="https://cdn.simpleicons.org/instagram/E6EDF3" height="24" alt="Instagram" />
+</a>
+&nbsp;&nbsp;
+<a href="https://www.facebook.com/condorifloresbenjamin" target="_blank" rel="noopener">
+  <img src="https://cdn.simpleicons.org/facebook/E6EDF3" height="24" alt="Facebook" />
+</a>
+
+</div>
+
+<br>
+
+---
+
+<!-- FOOTER -->
+
+<div align="center">
+
+<sub>Engineering knowledge. Aviation experience. Software solutions.</sub>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=benjamincondoriflores&color=1E5F8C&style=flat-square&label=PROFILE+VISITS" alt="Profile visits" />
+
+</div>
