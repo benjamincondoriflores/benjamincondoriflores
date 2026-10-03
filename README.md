@@ -1,235 +1,120 @@
-<!--horizontal divider(gradiant)-->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<!--h1 without bottom border-->
-<div id="user-content-toc">
-  <ul align="center">
-    <summary><h1 style="display: inline-block">Benjamin Condori Flores</h1></summary>
-  </ul>
-</div>
-
-
-<!--- banner -->
-<div align="center">
-
-<svg width="100%" height="220" viewBox="0 0 1000 220" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aviation and technology banner">
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" role="img" aria-label="Benjamin Condori Flores — Aviation Technology, Software Development and Technical Projects">
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%"   stop-color="#0A1A2F"/>
-      <stop offset="55%"  stop-color="#07121F"/>
-      <stop offset="100%" stop-color="#03070C"/>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#03070C"/>
+      <stop offset="0.55" stop-color="#07121F"/>
+      <stop offset="1" stop-color="#0A1A2F"/>
     </linearGradient>
-    <linearGradient id="horizon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#0A1A2F" stop-opacity="0"/>
-      <stop offset="35%"  stop-color="#3FA9F5" stop-opacity="0.9"/>
-      <stop offset="65%"  stop-color="#4FD1E0" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#0A1A2F" stop-opacity="0"/>
+    <linearGradient id="heroAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3FA9F5"/>
+      <stop offset="1" stop-color="#4FD1E0"/>
     </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="55%" r="60%">
-      <stop offset="0%"   stop-color="#1E5F8C" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#0A1A2F" stop-opacity="0"/>
-    </radialGradient>
+    <linearGradient id="heroPath" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#3FA9F5" stop-opacity="0"/>
+      <stop offset="1" stop-color="#4FD1E0" stop-opacity="0.85"/>
+    </linearGradient>
+    <pattern id="heroGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#12283D" stroke-width="1"/>
+    </pattern>
   </defs>
 
-  <rect width="1000" height="220" fill="url(#sky)"/>
-  <rect width="1000" height="220" fill="url(#glow)"/>
+  <rect width="1200" height="360" fill="url(#heroBg)"/>
+  <rect width="1200" height="360" fill="url(#heroGrid)" opacity="0.55"/>
+  <rect width="1200" height="2" fill="url(#heroAccent)" opacity="0.45"/>
 
-  <g stroke="#12283D" stroke-width="0.5" opacity="0.45">
-    <line x1="0"   y1="55"  x2="1000" y2="55"/>
-    <line x1="0"   y1="110" x2="1000" y2="110"/>
-    <line x1="0"   y1="165" x2="1000" y2="165"/>
-    <line x1="125" y1="0"   x2="125"  y2="220"/>
-    <line x1="250" y1="0"   x2="250"  y2="220"/>
-    <line x1="375" y1="0"   x2="375"  y2="220"/>
-    <line x1="625" y1="0"   x2="625"  y2="220"/>
-    <line x1="750" y1="0"   x2="750"  y2="220"/>
-    <line x1="875" y1="0"   x2="875"  y2="220"/>
+  <circle cx="200" cy="150" r="280" fill="#3FA9F5" opacity="0.04"/>
+
+  <line x1="0" y1="256" x2="1200" y2="256" stroke="#12283D" stroke-width="1"/>
+
+  <path d="M600 322C800 318 960 240 1128 116" fill="none" stroke="url(#heroPath)" stroke-width="1.5" stroke-dasharray="7 9" stroke-linecap="round"/>
+
+  <circle cx="812" cy="290" r="2.5" fill="#3FA9F5" opacity="0.5"/>
+  <circle cx="986" cy="212" r="2.5" fill="#4FD1E0" opacity="0.65"/>
+
+  <g transform="translate(1128 116) rotate(-33)">
+    <path d="M22 0L2 3.5L-6 13L-12 13L-5 3.5L-22 3.5L-22-3.5L-5-3.5L-12-13L-6-13L2-3.5Z" fill="#4FD1E0" opacity="0.85"/>
   </g>
 
-  <path d="M-40 180 C 180 160, 340 112, 540 100 S 860 78, 1040 52"
-        fill="none" stroke="#3FA9F5" stroke-width="1.3" opacity="0.75"/>
-  <path d="M-40 196 C 200 178, 380 136, 580 124 S 880 100, 1040 78"
-        fill="none" stroke="#1E5F8C" stroke-width="0.8" stroke-dasharray="5 9" opacity="0.85"/>
+  <rect x="80" y="176" width="88" height="2" fill="url(#heroAccent)"/>
 
-  <g fill="none" stroke="#4FD1E0" stroke-width="1.1" opacity="0.9">
-    <circle cx="205" cy="154" r="2.6"/>
-    <circle cx="405" cy="118" r="2.6"/>
-    <circle cx="640" cy="90" r="2.6"/>
-  </g>
-
-  <g fill="#E6EDF3" opacity="0.95" transform="translate(748 50) rotate(-10)">
-    <polygon points="0,9 76,6 92,9 76,12"/>
-    <polygon points="34,9 44,-6 52,-6 44,9"/>
-    <polygon points="34,9 44,24 52,24 44,9"/>
-    <polygon points="76,9 87,3 87,15"/>
-  </g>
-
-  <rect x="80" y="208" width="840" height="1.4" fill="url(#horizon)"/>
-
-  <text x="500" y="42"
-        text-anchor="middle"
-        font-family="Segoe UI, Helvetica, Arial, sans-serif"
-        font-size="12"
-        letter-spacing="6"
-        fill="#4FD1E0"
-        opacity="0.85">AVIATION  ·  TECHNOLOGY</text>
-
-  <text x="500" y="118"
-        text-anchor="middle"
-        font-family="Georgia, 'Times New Roman', serif"
-        font-size="38"
-        font-weight="600"
-        letter-spacing="3"
-        fill="#E6EDF3">BENJAMIN CONDORI FLORES</text>
-
-  <text x="500" y="148"
-        text-anchor="middle"
-        font-family="Segoe UI, Helvetica, Arial, sans-serif"
-        font-size="12"
-        letter-spacing="10"
-        fill="#8B9AAB">B  C  F</text>
-
-  <text x="500" y="190"
-        text-anchor="middle"
-        font-family="Segoe UI, Helvetica, Arial, sans-serif"
-        font-size="12"
-        letter-spacing="2"
-        fill="#C5CFD9"
-        opacity="0.85">Aeronautical knowledge applied through software and technical projects</text>
-
+  <text x="80" y="152" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="600" letter-spacing="2.5" fill="#E6EDF3">BENJAMIN CONDORI FLORES</text>
+  <text x="80" y="212" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" letter-spacing="3.5" fill="#8B9AAB">AVIATION TECHNOLOGY · SOFTWARE DEVELOPMENT · TECHNICAL PROJECTS</text>
+  <text x="80" y="316" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" letter-spacing="2" fill="#8B9AAB" opacity="0.75">HDG 043° · ALT 12 500 FT · GS 480 KT</text>
 </svg>
 
-</div>
+## Professional Summary
 
+Profile built at the intersection of aviation technology and software development. Aeronautical knowledge is applied to the design of operational, educational and documentation tools — from Python utilities and data handling to web and mobile interfaces built with JavaScript and Flutter.
 
-<!--h2 without bottom border-->
-<div id="user-content-toc">
-  <ul align="center">
-    <summary><h2 style="display: inline-block">Precision in aviation, discipline in code</h2></summary>
-  </ul>
-</div>
+The work focuses on translating technical and operational requirements into clear, maintainable software and readable documentation for aeronautical environments.
 
+## Areas of Expertise
 
-<!--Intro start-->
-- Currently developing technical and educational tools for **aviation training and operations**
+| Area | Scope |
+| --- | --- |
+| Aviation Technology | Aeronautical knowledge applied to digital tools and operational workflows. |
+| Software Development | Web, mobile and desktop applications built with Python, JavaScript and Flutter. |
+| Technical & Educational Projects | Documentation, training material and tooling for aeronautical education. |
 
-- Learning continuously across **aeronautical procedures, software engineering, and data workflows**
+## Technologies
 
-- Building projects around **Python, web platforms, and mobile applications** applied to aviation contexts
+| Category | Stack |
+| --- | --- |
+| Programming | Python · JavaScript |
+| Web | HTML · CSS |
+| Mobile | Flutter |
+| Development | Git · GitHub · VS Code |
+| Data | MySQL · Data Analysis |
+| Design & Documentation | Figma · Markdown |
 
-- Writing and documenting technical material on **aviation technology and operational support tools**
+## Aviation Domains
 
-- Open to discuss **aviation technology, Python, web development, and technical projects**
+- **Flight Operations** — operational procedures and flight-related tooling.
+- **Aviation Operations** — day-to-day operational processes and supporting systems.
+- **Aeronautical Maintenance** — technical records and maintenance documentation.
+- **Air Traffic Control** — control procedures and aeronautical information.
+- **Aviation Technology** — applied systems, tooling and digital workflows.
+- **Technical Documentation** — structured manuals, procedures and reference material.
+- **Educational Tools** — training material and learning resources for aeronautical study.
 
-- Reach out through any of the social profiles listed below
+## Projects
 
-- This profile is a working space for projects that connect **aeronautical knowledge with software development**
-<!--Intro end-->
+Structured by domain. Repositories will be listed here as they are published.
 
+| Category | Scope | Repository |
+| --- | --- | --- |
+| Aviation Software | Operational and flight-related tooling | — |
+| Educational Tools | Aeronautical training and study material | — |
+| Python Applications | Automation, data handling and utilities | — |
+| Web Projects | Front-end and full-stack interfaces | — |
+| Technical Engineering Projects | Documentation and engineering support tools | — |
 
-<!--- stats & Trophy (start) -->
-<p align="center">
-  <!--- stats (start) -->
-<table align="center">
-<tr border="none">
-<td width="50%" align="center">
+## GitHub Activity
 
-  <img  align="center"  src="https://github-readme-stats.vercel.app/api?username=benjamincondoriflores&theme=dark&show_icons=true&count_private=true&hide_border=true&bg_color=03070C&title_color=4FD1E0&icon_color=3FA9F5&text_color=C5CFD9" />
-  <br></br>
-  <img  title="Streak stats" alt="Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=benjamincondoriflores&theme=dark&hide_border=true&background=03070C&stroke=12283D&ring=3FA9F5&fire=4FD1E0&currStreakLabel=4FD1E0&sideLabels=C5CFD9&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=8B9AAB" />
-</td>
-
-<td width="50%" align="center">
-
-  <img  align="center"  src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=benjamincondoriflores&theme=dark&hide_border=true&no-bg=true&no-frame=true&langs_count=10&bg_color=03070C&title_color=4FD1E0&text_color=C5CFD9"/>
-
-  </td>
-</tr>
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <img src="https://github-readme-stats.vercel.app/api?username=benjamincondoriflores&show_icons=true&hide_border=true&include_all_commits=true&bg_color=03070C&title_color=3FA9F5&icon_color=4FD1E0&text_color=C5CFD9&rank_icon=github" alt="GitHub statistics for benjamincondoriflores" width="100%" />
+    </td>
+    <td valign="top" width="50%">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=benjamincondoriflores&layout=compact&hide_border=true&langs_count=8&bg_color=03070C&title_color=3FA9F5&text_color=C5CFD9" alt="Most used languages on GitHub for benjamincondoriflores" width="100%" />
+    </td>
+  </tr>
 </table>
-<!--- stats (end) -->
 
-<!--- trophy (start) -->
-<div align=center>
-  <a href="https://github.com/ryo-ma/github-profile-trophy" title="Go to Source">
-      <img align="center" width=84% src="https://github-profile-trophy.vercel.app/?username=benjamincondoriflores&theme=algolia&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" />
-    </a>
-</div>
-<!--- trophy (end) -->
-
-
-</p>
-<!--- stats (end) -->
-
-
-<!--h1 without bottom border-->
-<div id="user-content-toc">
-  <ul align="center">
-    <summary><h2 style="display: inline-block">Technologies and Domains</h2></summary>
-  </ul>
-</div>
-<!--tech stack icons-->
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,html,css,js,git,github,vscode,linux,mysql,figma,md,flutter&perline=12" />
-  </a>
+  <img src="https://streak-stats.demolab.com?user=benjamincondoriflores&hide_border=true&background=03070C&border=12283D&stroke=12283D&ring=3FA9F5&fire=4FD1E0&currStreakNum=E6EDF3&currStreakLabel=4FD1E0&sideNums=E6EDF3&sideLabels=C5CFD9&dates=8B9AAB" alt="Contribution streak for benjamincondoriflores" width="70%" />
 </p>
 
-<!--domain focus-->
-<div align="center">
+## Connect
 
-| Aviation and Operations | Development and Data |
-| :-- | :-- |
-| Aviation | Software Development |
-| Aeronautical Maintenance | Python |
-| Flight Operations | Web Development |
-| Air Traffic Control | Mobile Applications |
-| Aviation Technology | Data Analysis |
-| Technical Documentation | Technical and Educational Projects |
+| Platform | Profile |
+| --- | --- |
+| YouTube | [@benjamincondoriflores](https://www.youtube.com/@benjamincondoriflores) |
+| Instagram | [@benjamincondoriflores](https://www.instagram.com/benjamincondoriflores) |
+| TikTok | [@benjamincondoriflores](https://www.tiktok.com/@benjamincondoriflores) |
+| Facebook | [condorifloresbenjamin](https://www.facebook.com/condorifloresbenjamin) |
 
-</div>
-
-
-<!-- Connect with me -->
-<!--h2 without bottom border-->
-<div id="user-content-toc">
-  <ul align="center">
-    <summary><h2 style="display: inline-block">Connect</h2></summary>
-  </ul>
-</div>
-
-<!--icons and links-->
 <p align="center">
-
-<a href="https://www.tiktok.com/@benjamincondoriflores" target="blank">
-<img align="center" src="https://cdn.simpleicons.org/tiktok/4FD1E0" alt="tiktok" height="42" width="42" />
-</a>
-
-<a href="https://www.youtube.com/@benjamincondoriflores" target="blank">
-<img align="center" src="https://cdn.simpleicons.org/youtube/4FD1E0" alt="youtube" height="42" width="42" />
-</a>
-
-<a href="https://www.instagram.com/benjamincondoriflores" target="blank">
-<img align="center" src="https://cdn.simpleicons.org/instagram/4FD1E0" alt="instagram" height="42" width="42" />
-</a>
-
-<a href="https://www.facebook.com/condorifloresbenjamin" target="blank">
-<img align="center" src="https://cdn.simpleicons.org/facebook/4FD1E0" alt="facebook" height="42" width="42" />
-</a>
-
+  <sub>Benjamin Condori Flores · Aviation Technology · Software Development · Technical Projects</sub>
 </p>
-
-
-<!--profile visit count-->
-<div align="center">
-
-[![](https://visitcount.itsvg.in/api?id=benjamincondoriflores&icon=3&color=6)](https://visitcount.itsvg.in)
-
-</div>
-
-
-<!--horizontal divider(gradiant)-->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-----------------------------------------------------------------------
-Last Edited on: 2026
